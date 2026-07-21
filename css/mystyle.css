@@ -1,0 +1,219 @@
+ h1{
+                color: #fff;
+                background-color: #ffa5f3;
+                font-family: Yu Gothic;
+                text-shadow: 2px 2px 5px gray;
+                width: 800px;
+                height: auto;
+                margin:20px auto;
+                border-radius: 40px;
+
+            }
+            footer{
+                background-color: #c0c0c0;color:white;
+            }
+            h2{
+                color:rgb(255, 161, 252);
+                background-color:rgb(162, 255, 255);
+            }
+              h3{
+                color:rgb(167, 255, 161);
+                background-color:rgb(181, 94, 252);
+            }
+            .box{
+                padding:10px;
+                margin:20px;
+                border:3px solid pink;
+                }
+ .home{margin:0px;
+width: 500px;}
+img{
+    width:500px;
+    height:auto;
+}
+
+.adobe-banner{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+ body{
+    font-family:"Comic Sans MS",cursive;
+    font-size:16px;
+    text-align:center;
+    background-image:url("../image/hosi.png");
+ }
+ nav li{
+    display:inline-block;
+ }
+ nav ul{
+    font-weight: bold;
+    text-align: right;
+    padding-top: 26px;
+    padding-bottom: 5px;
+    margin: 0;
+    background-color: #bcffaa;
+ }
+ nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 900;
+    padding: 2px;;
+ }
+ h1{font-weight: bold;}
+ img{
+    width: 500px;
+    height: auto;
+ }
+ box{
+    width: 30%;
+    
+ }
+ footer{
+    clear:both;
+ }
+ box{float:left;}
+
+ img{width:100% ;
+    height:auto;
+    max-width: 100%;}
+
+    @media screen and (max-width:768px)
+{
+        .box{
+            width: 100%;
+            float:none;
+        }
+    .contents{background-color:#fffafc;}
+    .contents{background: linear-gradient(#ffffff,#ffe6fa,#dffcff);}
+    
+ a{
+ text-decoration:none;
+  }
+a:link{
+ color:blue;
+ }
+a:visited{
+ color:purple;
+ }
+ a:hover{
+ color:red;
+  text-decoration:underline;
+ }
+ a:active{
+ color:orange;
+    }
+    }
+ header img{
+float:left;
+    }
+article{
+ position: relative;
+clear:both;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.header-in{
+ width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+ol li{
+    display: inline;
+    margin-right: 5px;
+    font-size:80%;
+}
+
+
+ol{
+    clear: both;
+    display: block;
+    margin-top: 80px; 
+    margin-left: 20px; 
+    padding: 0;
+    list-style: none; 
+} 
+
+#tips{
+    width: 90%;
+    margin:40px auto;
+}
+#tips h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#333
+}
+.card{
+    width: 700px;
+    margin:20px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transform: 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover{
+ transform: translateY(-5px);
+transform: translateY(-5px); 
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+transform: scale(1.1);
+}
+
+.card h3{
+    color: #bcffaa;
+    margin-bottom: 10px;
+}
+.card p{
+    line-height:2;
+    letter-spacing: 0.08em;
+    text-align: justify;
+}
+.card li{
+    list-style:none;
+    padding-left: 0;
+}
+.card-img{
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+@media print {
+    nav { display: none; }
+}
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+}
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #fff; 
+    transition: width 0.3s ease, left 0.3s ease;
+}
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+time {
+  color: #ff0099; /* お好みの色（カラーコードや色名）を指定 */
+}
